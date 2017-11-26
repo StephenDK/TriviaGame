@@ -22,44 +22,6 @@ $(document).ready(function(){
 	var wrong = 0;
 
 
-// 	var questions = [{
-// 		question: "Who is the fastest of theses video game characters?",
-// 		answers: ['A. Mario',
-//  				'B. Sonic',
-//  				'C. Donkey Kong',
-//  				'D. The paperboy'],
-//  		correctAnswer: 'A. Mario'
-// 	}, {
-// 		question: "In Halo combat evolved the flood was introduced at what level?",
-// 		answers: [' A. The Pillar of Autumn',
-//  				' B. The Maw',
-//  				' C. The Library',
-//  				' D. 343 Guilty Spark'],
-//  		correctAnswer: 'C. The Library'
-//  	}, {
-//  		question: "Which of these bands was not featured in Guitar Hero III: Legends of Rock?",
-//  		answers: [' A. Iron Maiden',
-//  				' B. Weezer',
-//  				' C. Metallica',
-//  				' D. Lynard Skynyrd'],
-//  		correctAnswer: 'A. Iron Maiden'
-//  	}, {
-//  		question: "Which of the following video games takes place in a dystopian underwater city called Rapture?",
-//  		answers: [' A. Half-Life',
-// 				' B. God Of War',
-//  				' C. Fallout 3',
-//  				' D. Bioshock'],
-//  		correctAnswer: 'D. Bioshock'
-//  	}];
-	
-
-
-// console.log(questions.question);
-
-
-
-
-
 var question1 = {
 	question: "Who is the fastest of theses video game characters?",
 	possibleAnswers: ['A. Mario',
@@ -165,9 +127,9 @@ function answerChecker() {
 
 
 
-function scoarBoard() {
-	$('#scoarBoard').append('<h2>Number of questions correct' + correct + '</h2>')
-}	$('#scoarBoard').append('<h2>Number of questions correct' + wrong + '</h2>')
+// function scoarBoard() {
+// 	$('#scoarBoard').append('<h2>Number of questions correct' + correct + '</h2>')
+// }	$('#scoarBoard').append('<h2>Number of questions correct' + wrong + '</h2>')
 
 	//When the start button is clicked hide the start button and run clock
 	//Also run the loadQuestions and loadAnswers functions.
@@ -199,7 +161,15 @@ function scoarBoard() {
 	
 });
 
+// Pseudocode 
 
+// What remains to be fixed in this game is the evaluator, conditionals, and scoreboard updater.
+// The evaluator is supposed to go through each answer and check which radio input has been clicked.
+// After the evaluation is don the conditionals will determine is the users choice is equal to the 
+// answer that has been assigned. After everything is checked the scorboard shw be updated with the latest
+// scores and then displayed onto the screen.
+// My game is a portion of the way there but I got lost in the logic needed to finish theses problems.
+// please let me know what I could have done better
 
 	
 
